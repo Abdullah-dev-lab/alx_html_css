@@ -1,0 +1,1 @@
+This directory contains a project to design and style the homepage of a website using CSS.
