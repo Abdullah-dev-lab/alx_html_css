@@ -10,9 +10,12 @@ main {
 article { 
     flex: 2;
     overflow-y: auto;
+    color: black;
+    background-color: burlywood;
+    margin: auto;
+    padding-left: 10px;
 }
 aside { 
     flex: 1;
     overflow-y: auto;
-}
 }
