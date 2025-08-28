@@ -7,8 +7,8 @@
     <link href="base.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
  </head>
- <body  class="works_on_smartphone">
-    <header>
+ <body  class="container works_on_smartphone">
+    <header class="container">
         <ul>
             <li><a href="index.html">Base Index Page</a></li>
             <li><a href="page1.html">Page 1</a></li>
@@ -16,18 +16,24 @@
         </ul>    
     </header>
     <main>
-        <article>    
-         <h1>Base Index Page</h1>
+        <article class="container">    
+         <div class="divider">
+            <h1>Base Index Page</h1>
          <p>Welcome to the Base Index Page</p>
          <p>This is a simple html with base to serve as its index.</p>
-         <h2>Available Links</h2>
+         </div>
+         <div>
+            <h2>Available Links</h2>
          <img src=" link https://i.ibb.co/gTDZZT8/ALX-Logo-07.png">
-         <h3>Links to other pages</h3>
+         </div>
+         <div class="divider">
+            <h3>Links to other pages</h3>
          <p>It contains a link to another page.</p>
          <p>Click the link below to navigate to the other page</p>
          <a href="page1.html"></a>
          <p>Click the link below to navigate to the tweets page</p>
-         <a href="tweets.html">Tweets Page</a>
+         </div>
+         <a class="tweet" href="tweets.html">Tweets Page</a>
          <table>
             <caption>Learners Info</caption>
             <thead>
@@ -61,11 +67,11 @@
             </tbody>     
          </table>
         </article>
-       <aside>
+       <aside class="container">
         <p>placeholder to add comment thread later</p>
        </aside>       
     </main>
-    <footer>
+    <footer class="container">
         <p>Made by Abdulmalik Abdullah - <a href="ANY LINK" target="_blank">here</a></p>
     </footer>    
  </body>
